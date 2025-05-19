@@ -1,6 +1,6 @@
 //Time Complexity : O(n)
 //Space Complexity : O(1)
-class Solution {
+class Solution3 {
     public boolean wordPattern(String pattern, String s) {
         String[] words = s.split(" ");
         if(words.length != pattern.length()) {
